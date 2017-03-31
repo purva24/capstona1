@@ -821,23 +821,65 @@ ul{
 }
 /*Site Header*/
 .site-header{
-	display:inline-block;
 	width:100%;
 }
 .site-logo{
-	width:50%;
+	display:inline-block;
+	width:33%;
 }
 .site-contact{
-	width:50%;
-	float:right;
+	width:33%;
+	display:inline-block;
 }
 .site-contact p{
 	margin:0;
 }
 /*Search-box*/
-.search-box{
+.headersearch #search {
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-shadow: none;
 	position:relative;
 }
+.headersearch {
+    position: relative;
+    margin-right: 8px;
+	width:170px;
+}
+
+.headersearch #search_button {
+    padding-left: 0;
+	position: absolute;
+    right: 4px;
+    top: 1px;
+    outline: none;
+    background-color: transparent;
+    height: 18px;
+    padding: 0;
+    margin: 3px 2px 0 0;
+}
+.search-icon {
+    color: #999999;
+    font-size: 18px;
+}
+#search_button{
+	background:none;
+	border:none;
+	position:absolute;
+	left:175px;
+	top:3.5px;
+}
+
+button#search_button:before{		
+	content:'\f002';
+	font-family:fontAwesome;
+}
+.site-search{
+	width:33%;
+	display:inline-block;
+}
+
+
 
 
 

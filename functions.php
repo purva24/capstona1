@@ -117,6 +117,13 @@ function capstona1_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
+function enqueue_load_fa() {
+ 
+    wp_enqueue_style( 'load-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+ 
+}
+
 add_action( 'wp_enqueue_scripts', 'capstona1_scripts' );
 
 /**

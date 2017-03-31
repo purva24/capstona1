@@ -17,7 +17,23 @@ get_header(); ?>
 	<div class="main-content page-wrap container">
 		<div class="site-inner">
 			<div class="site-header">
-				<!--<div class="wrap">-->
+				<div class="wrap">
+					<!--<form class="header-search" itemprop="query-input" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get">
+					<input name="utf8" type="hidden" value="✓">	
+					<div class="site-search">
+							<input type="text" name="search" value="" placeholder="SEARCH" class="search-box">
+							<button type="image" class="search-image fa fa-search"></button>
+						</div>
+					</form>-->
+					<div class="site-search">
+					<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+						<div class="msearchcontent">
+							<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
+							<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
+							<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
+						</div>
+					</form>
+					</div>
 					<div class="site-logo">
 						<a href="#">
 							<img src="images\logo.png">
@@ -27,11 +43,15 @@ get_header(); ?>
 							<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
 							<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
 						</div>
-					<!--<div class="site-search">
-						<input type="text" name="search" placeholder="SEARCH" class="search-box">
-						<button type="image" class="search-image"><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png"></button>
-					</div>-->
-				<!--</div>-->
+					<!--<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+						<div class="msearchcontent">
+							<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
+							<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
+							<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
+						</div>
+					</form>-->
+					
+				</div>
 			</div>
 			<nav class="site-menu">
 				<div class="wrap">
