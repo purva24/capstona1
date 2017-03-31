@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer site-inner" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'capstona1' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'capstona1' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>

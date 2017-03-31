@@ -17,15 +17,21 @@ get_header(); ?>
 	<div class="main-content page-wrap container">
 		<div class="site-inner">
 			<div class="site-header">
-				<div class="site-logo">
-					<a href="#">
-						<img src="images\logo.png">
-					</a>
-				</div>
-				<div class="site-contact">
-					<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
-					<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
-				</div>
+				<!--<div class="wrap">-->
+					<div class="site-logo">
+						<a href="#">
+							<img src="images\logo.png">
+						</a>
+					</div>
+						<div class="site-contact">
+							<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
+							<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
+						</div>
+					<!--<div class="site-search">
+						<input type="text" name="search" placeholder="SEARCH" class="search-box">
+						<button type="image" class="search-image"><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png"></button>
+					</div>-->
+				<!--</div>-->
 			</div>
 			<nav class="site-menu">
 				<div class="wrap">
