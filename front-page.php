@@ -18,39 +18,24 @@ get_header(); ?>
 		<div class="site-inner">
 			<div class="site-header">
 				<div class="wrap">
-					<!--<form class="header-search" itemprop="query-input" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get">
-					<input name="utf8" type="hidden" value="✓">	
 					<div class="site-search">
-							<input type="text" name="search" value="" placeholder="SEARCH" class="search-box">
-							<button type="image" class="search-image fa fa-search"></button>
-						</div>
-					</form>-->
-					<div class="site-search">
-					<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
-						<div class="msearchcontent">
-							<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
-							<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
-							<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
-						</div>
-					</form>
+						<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+							<div class="msearchcontent">
+								<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
+								<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
+								<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
+							</div>
+						</form>
 					</div>
 					<div class="site-logo">
 						<a href="#">
-							<img src="images\logo.png">
+							<img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png"/>
 						</a>
 					</div>
-						<div class="site-contact">
-							<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
-							<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
-						</div>
-					<!--<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
-						<div class="msearchcontent">
-							<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
-							<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
-							<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
-						</div>
-					</form>-->
-					
+					<div class="site-contact">
+						<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
+						<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
+					</div>
 				</div>
 			</div>
 			<nav class="site-menu">
@@ -63,10 +48,10 @@ get_header(); ?>
 				</div>
 			</nav>		
 			<div class="banner-image wrap">
-					<a href="#"><img src="https://www.capstona.com/wp-content/uploads/2017/01/4.png"></a>
+				<a href="#"><img src="https://www.capstona.com/wp-content/uploads/2017/01/4.png"></a>
 			</div>
-			<!--<div class="image-section">
-				<div class="masonry-grid grid clearfix">
+			<div class="image-section">
+				<div class="masonry-grid grid">
 					<div class="grid-item">
 						<img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg">
 					</div>
@@ -77,8 +62,8 @@ get_header(); ?>
 						<img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg">
 					</div>
 				</div>
-			</div>-->
-			<div class="image-section">
+			</div>
+			<!--<div class="image-section">
 				<div class="masonry">
 					<div class="item"><img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg"></div>
 					<div class="item"><img src="https://www.capstona.com/wp-content/uploads/2017/02/3.png"></div>
@@ -93,46 +78,21 @@ get_header(); ?>
 					<div class="item"><img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg"></div>
 					<div class="item"><img src="https://www.tilemountain.co.uk/media/catalog/category/hampton-beige-902_3.jpg"></div>
 				</div>
-			</div>
+			</div>-->
 			<section>
 				<div class="subscriber-form">
-					<form>
-						<input type="text" name="Subscribe" placeholder="Enter Your Email">
-						<button value="button">Submit</button>
-					</form>
+					<div class="wrap">
+						<div class="form-content">
+							<h4>Subscribe to our Newsletter</h4>
+							<p>To get latest information about our products and offers,<br>subscribe to our newsletter.</p>
+						</div>
+						<form>
+							<input type="text" name="Subscribe" placeholder="Enter Your Email">
+							<button value="button">Submit</button>
+						</form>
+					</div>
 				</div>
 			</section>
-			<footer>
-				<div class="social-icons">
-					<ul>
-						<li>
-							<a href="https://www.facebook.com/Capstona" target="_blank">
-								<img src="http://imgur.com/bPWDJxs.png" alt="facebook">
-							</a> 
-						</li>
-						<li>
-							<a href="https://www.facebook.com/Capstona" target="_blank">
-								<img src="http://imgur.com/lWf36Hu.png" alt="instagram" >
-							</a> 
-						</li>
-						<li>
-							<a href="https://www.facebook.com/Capstona" target="_blank">
-								<img src="http://imgur.com/ArMLDm3.png" alt="pinterest">
-							</a> 
-						</li>
-						<li>
-							<a href="https://www.facebook.com/Capstona" target="_blank">
-								<img src="http://imgur.com/I6DKzam.png" alt="google+">
-							</a> 
-						</li>
-						<li>
-							<a href="tel:+91-7737-333333" target="_blank">
-								<img src="http://imgur.com/cAmepxz.png" alt="whatsapp">
-							</a>
-						</li>
-					</ul>
-				</div>
-			</footer>
 		</div>
 	</div>
 </body>

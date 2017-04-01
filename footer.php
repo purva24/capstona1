@@ -14,6 +14,35 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer site-inner" role="contentinfo">
+		<div class="social-icons">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/Capstona" target="_blank">
+						<img src="http://imgur.com/bPWDJxs.png" alt="facebook">
+					</a> 
+				</li>
+				<li>
+					<a href="https://www.facebook.com/Capstona" target="_blank">
+						<img src="http://imgur.com/lWf36Hu.png" alt="instagram" >
+					</a> 
+				</li>
+				<li>
+					<a href="https://www.facebook.com/Capstona" target="_blank">
+						<img src="http://imgur.com/ArMLDm3.png" alt="pinterest">
+					</a> 
+				</li>
+				<li>
+					<a href="https://www.facebook.com/Capstona" target="_blank">
+						<img src="http://imgur.com/I6DKzam.png" alt="google+">
+					</a> 
+				</li>
+				<li>
+					<a href="tel:+91-7737-333333" target="_blank">
+						<img src="http://imgur.com/cAmepxz.png" alt="whatsapp">
+					</a>
+				</li>
+			</ul>
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'capstona1' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'capstona1' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
