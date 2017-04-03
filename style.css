@@ -46,6 +46,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+/* Mixin itself*/
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+/*Usage as a mixin*/
+.element {
+  @include clearfix;
+}
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -892,12 +905,16 @@ button#search_button:before{
 .site-contact p{
 	margin:0;
 }
-
-
-
-
-
-
+.site-contact .fa {
+	margin-right:5px;
+	font-size:18px;
+}
+.site-contact a{
+	color:#000;
+}
+.site-contact a:hover{
+	color:#ED7745;
+}
 /* Navigation*/
 #site-navigation{
 	display:none;
@@ -921,43 +938,34 @@ button#search_button:before{
 	color:#767673;
 }
 .site-menu li a:hover{
-	color:#DBAD80;
+	color:#ED7745;
 
 }
-/* Masonry Gallery  */
-.grid{
+/*Image Section*/
+/*.grid{
+	max-width:1140px;
+}*/
+.grid:after{
 	clear:both;
+	content: ' ';
+	display:block;
 }
-.grid-item{
-	float:left;
-	width:280px;
-	height:260px;
-	border:2px solid #fff;
-}
-.grid-item-width2{
-	width:360px;
-}
-.grid-item-height2{
-	height:340px;
-}
-.banner-image img{
-	height:250px;
-	width: 100%;
-}
-.image-section{
-	clear:both;
-	margin:20px auto;
-}
-.masonry { /* Masonry container */
-    column-count: 3;
-    column-gap: 1.5em;
+.grid-item {
+  float: left;
+  width: 380px;
+  height: 260px;
+
 }
 
-.item { /* Masonry bricks or child elements */
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
+.grid-item--width2 { 
+	width: 360px; 
+
 }
+.grid-item--height2 { 
+	height:240px;
+}
+
+
 /*Subscribe Form*/
 .subscriber-form{
 	/*background:#DBAD80;*/
@@ -987,8 +995,60 @@ button{
 input{
 	border-radius:5px !important;
 }
-
+ /*Details Section*/
+ .online-shop li{
+	display:inline-block; 
+	padding:0 2%;
+ }
+ .online-shop li img{
+	 width:200px;
+	 height:auto;
+ }
+.detail-section h4{
+	font-family:'Roboto';
+	font-size:30px;
+	font-weight:200;
+	margin-bottom:0;
+}
 /* Footer */
+.site-footer{
+	margin-top:-90px!important;
+	padding-top:0;
+	padding-bottom:0;
+}
+.footer-top{
+	width:100%;
+	margin-bottom:10px;
+}
+.address{
+	display:inline-block;
+	width:49%;
+	text-align:left;
+}
+.address p{
+	margin:0;
+}
+.address h4{
+	margin-bottom:0;
+	font-family:'Roboto';
+	font-size:20px;
+	font-weight:300;
+	
+}
+.address p{
+	font-size:0.9rem;
+}
+.social-icons{
+	display:inline-block;
+	width:49%;
+	text-align:right;
+}
+.social-icons h4{
+	margin-bottom:5px;
+	font-family:'Roboto';
+	font-size:20px;
+	font-weight:200;
+}
 .social-icons img{
 	width:30px;
 	height:30px;
@@ -997,8 +1057,21 @@ input{
 	display: inline-block;
 	padding:0.5%
 }
-.site-footer{
-	margin-top:-32px!important;
+
+.site-info{
+	background:#ED7745;
+	color:#fff;
+	margin-bottom:0;
+	padding:0.5%;
+}
+.site-info p{
+	margin-bottom:0;
+}
+.site-info a{
+	color:#fff;
+}
+.site-info a:hover{
+	color:#000;
 }
 
 

@@ -21,7 +21,7 @@ get_header(); ?>
 					<div class="site-search">
 						<form class="headersearch" itemscope="itemscope" itemprop="potentialAction" itemtype="http://schema.org/SearchAction" action="/products/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
 							<div class="msearchcontent">
-								<meta content="https://www.urbanladder.com/products/search?keywords={keywords}" itemprop="target">
+								<meta content="https://www.capstona.com/products/search?keywords={keywords}" itemprop="target">
 								<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="search" value="" itemprop="query-input" class="typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="keywords" id="search" value="" placeholder="Search" itemprop="query-input" class="typeahead tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Mr Eaves XL Modern&quot;, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: relative; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-suggestions"></div></div></span>
 								<button type="image" id="search_button" class="search-icon fa fa-awesome"></button>
 							</div>
@@ -33,8 +33,8 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="site-contact">
-						<p>Phone:<a href="tel:+91-7737-333333">+91-7737-333333</a></p>
-						<p>E-mail:<a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91-98292-42880">+91-98292-42880</a> |<a href="tel:+91-7737-333333"> +91-7737-333333</a></p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:capstonasales@gmail.com">capstonasales@gmail.com</a></p>
 					</div>
 				</div>
 			</div>
@@ -43,6 +43,9 @@ get_header(); ?>
 					<ul>
 						<li class="first"><a href=""#>Home</a></li>
 						<li><a href=""#>About</a></li>
+						<li><a href=""#>Products</a></li>
+						<li><a href=""#>Blog</a></li>
+						<li><a href=""#>Information</a></li>
 						<li><a href=""#>Contact</a></li>
 					</ul>
 				</div>
@@ -50,37 +53,26 @@ get_header(); ?>
 			<div class="banner-image wrap">
 				<a href="#"><img src="https://www.capstona.com/wp-content/uploads/2017/01/4.png"></a>
 			</div>
-			<div class="image-section">
-				<div class="masonry-grid grid">
+			<!--<section class="image-section">
+				<div class="grid">
 					<div class="grid-item">
-						<img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg">
+						<img src="http://www.abitant.com/static/article_images/1072721562/normal.jpg">
 					</div>
-					<div class="grid-item grid-item-width2">
-						<img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg">
+					<div class="grid-item grid-item--width2">
+						<img src="http://cdn.trendir.com/wp-content/uploads/old/archives/color-wash-basins-regia-wallpaper-brown-1.jpg">
 					</div>
-					<div class="grid-item grid-item-height2">
-						<img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg">
+					<div class="grid-item grid-item--height2">
+						<img src="http://1.bp.blogspot.com/--Tyb7hxRnR0/UImwRIGQUvI/AAAAAAAACBA/_XO33DyT7u8/s640/Kava+washbasin.jpg">
+					</div>
+					<div class="grid-item">
+						<img src="https://lh6.googleusercontent.com/-6XccOwNgPh4/VM_BI_h7ayI/AAAAAAAABJo/vLnGC0WtebI/w800-h800/a2087880-68c5-42ef-8fdf-e0e0d1b998ad1710.jpg">
 					</div>
 				</div>
-			</div>
-			<!--<div class="image-section">
-				<div class="masonry">
-					<div class="item"><img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg"></div>
-					<div class="item"><img src="https://www.capstona.com/wp-content/uploads/2017/02/3.png"></div>
-					<div class="item"><img src="https://pimg.tradeindia.com/02574369/b/3/12-X-18-Kitchen-Wall-Tiles.jpg"></div>
-					<div class="item"><img src="https://www.somanyceramics.com/wp-content/uploads/2014/03/kitchen41.jpg"></div>
-					<div class="item"><img src="https://www.tilemountain.co.uk/media/catalog/category/hampton-beige-902_3.jpg"></div>
-					<div class="item"><img src="http://www.tiles4all.co.uk/images/Tiles/Resized/670.380_images_Tiles_ToResize_White_Tumbled_Travertine_Marble_Kitchen_Bathroom_Wall_Tiles_IMYSTUM080.1.jpg"></div>
-					<div class="item"><img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg"></div>
-					<div class="item"><img src="https://www.capstona.com/wp-content/uploads/2017/02/3.png"></div>
-					<div class="item"><img src="http://media.thehappyhill.se/2016/06/marble-kitchen-wall.jpg"></div>
-					<div class="item"><img src="https://www.somanyceramics.com/wp-content/uploads/2014/03/kitchen41.jpg"></div>
-					<div class="item"><img src="https://www.tikamoon.co.uk/ori-scrula-bamoro-marble-washbasin-705.jpg"></div>
-					<div class="item"><img src="https://www.tilemountain.co.uk/media/catalog/category/hampton-beige-902_3.jpg"></div>
-				</div>
-			</div>-->
-			<section>
-				<div class="subscriber-form">
+			</section>-->
+			
+
+			<section class="subscriber-section">
+				<div class="subscriber-form clearfix">
 					<div class="wrap">
 						<div class="form-content">
 							<h4>Subscribe to our Newsletter</h4>
@@ -93,6 +85,18 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
+			<div class="detail-section">
+				<h4>Also Available On</h4>
+				<ul class="online-shop">
+					<li><img src="<?php echo get_bloginfo('template_url') ?>/images/amazon.png"/></li>
+					<li><img src="<?php echo get_bloginfo('template_url') ?>/images/flipkart.png"/></li>
+					<li><img src="<?php echo get_bloginfo('template_url') ?>/images/alibaba.png"/></li>
+					<p></p>
+				</ul>
+			</div>
+			<div class="get-in-touch">
+				<div class="">
+			</div>
 		</div>
 	</div>
 </body>
